@@ -7,6 +7,7 @@ import UpdateProduct from "./Component/Update_Product";
 import Home from "./Component/Home";
 import ApplyJob from "./Component/Job_Apply";
 
+
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Jobs from "./Component/Jobs";

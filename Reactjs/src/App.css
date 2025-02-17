@@ -588,7 +588,7 @@
 }
 .Icons {
   font-size: 45px;
-  background-color: #aed9cd;
+  background-color: #2662e4;
 }
 
 #Home-Step {
@@ -710,7 +710,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 100px;
   background-color: rgb(238, 233, 233);
 }
 #Company-Body {
@@ -779,8 +778,138 @@
   border-radius: 5px;
   font-size: 20px;
   font-weight: 700;
-  background-color: rgb(124, 175, 158);
+  color: white;
+  background-color: rgb(27, 27, 203);
 }
+
+
+/* ----------------------Contact---------------------- */
+#contact{   
+  background: linear-gradient(rgb(235, 231, 231), #5352ed);
+}
+#contact-row{
+  display: flex;
+}
+#cnt-col1{
+  margin: 0px 0px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-basis: 35%;
+}
+#cnt-h1{
+  margin: 0px 0;
+  font-size: 30px;
+}
+#cnt-col1 p{
+  margin: 15px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+}
+
+#cnt-col1 button:hover{
+  background-color: #9f0e0e;
+  cursor: pointer;
+}
+.Icon-email-phone{
+  margin: 0 5px;
+  color: #101072;
+}
+.Icon-email-phone:hover{
+  margin: 0 5px;
+  color: #0c0c45;
+  transform: scale(1.1);
+}
+.Icon{
+  color: rgb(27, 27, 90);
+  margin: 0 5px;
+}
+.Icon:hover{
+  color: darkblue;
+  transform: scale(1.1);
+}
+/* #social a i{
+  color: rgb(202, 30, 30);
+  font-size: 25px;
+} */
+#cnt-btn a{
+  cursor: pointer;
+  font-size: 35px;
+}
+#cnt-col1 a button{
+  margin: 20px 40px;
+  width: 110px;
+  height: 40px;
+  font-size: 15px;
+  border: 0;
+  border-radius: 10px;
+  color: white;
+  background-color: red;
+  text-decoration: none;  
+}
+
+#cnt-col2{
+  flex-basis: 60%;
+  margin: 10px 20px;
+  background: url("./Photos/Earth.webp");
+  background-repeat: no-repeat;
+}
+#cnt-col2:hover{
+ 
+}
+#message-Heading{
+  font-size: 20px;
+  margin-top: 20px;
+  animation: message 2s ease-in infinite;
+}
+@keyframes message{
+  from{
+    color: blue;
+  }
+  to{
+    color: rgb(230, 222, 222);
+  }
+}
+#cnt-col2 input{
+  width: 100%;
+  height: 40px;
+  margin: 10px 0;
+  padding: 0 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 0;
+  color:rgb(2, 11, 19);
+  background-color: rgb(179, 204, 243);
+}
+#cnt-col2 textarea{
+  width: 100%;
+  margin: 10px 0;
+  padding: 5px 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 0;
+  color:black;
+  background-color: rgb(179, 204, 243);
+}
+#cnt-col2 button{
+  margin: 20px 40px;
+  padding: 10px;
+  width: 110px;
+  height: 40px;
+  font-size: 15px;
+  border-radius: 10px;
+  border: 0;
+  color: white;
+  background-color: darkblue;
+  text-decoration: none; 
+  cursor: pointer; 
+}
+#cnt-col2 button:hover{
+  background-color: #3d0975;
+}
+
 
 /* -------------------------------SubmittedJob-------------------------- */
 
@@ -1294,6 +1423,51 @@
     width: 180px;
     height: 30px;
   }
+
+   /* --------------------Contact---------------------- */
+  
+  
+   #contact-row{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+}
+#cnt-col1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+#cnt-col1 p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+#cnt-h1{
+    font-size: 30px;
+}
+#cnt-col2{
+    width: 90%;
+}
+
+#cnt-btn{
+    display: flex;
+    justify-content: center;
+    
+}
+#cnt-col1 a button{  
+    margin: 20px -15px;  
+    width: 110px;
+    height: 40px;
+    font-size: 15px;
+    border: 0;
+    border-radius: 10px;
+    color: white;
+    background-color: red;
+    text-decoration: none;  
+}
 
   /* -------------------------Nav---------------------------- */
 

@@ -18,6 +18,7 @@ import { FaMicrosoft } from "react-icons/fa";
 import { SiTesla } from "react-icons/si";
 import { FaApple } from "react-icons/fa";
 import Image1 from "../assets/Images/heroS.jpg";
+import { Contacts } from "./Contacts";
 
 function Home() {
   const [Products, setProduct] = useState([]);
@@ -273,6 +274,7 @@ function Home() {
           </div>
         </div>
       </div>
+      <Contacts/>
     </>
   );
 }
